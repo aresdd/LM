@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8″" />
+    <title>Perros</title>
+  </head>
+  <body>
+    
+
+    <header>
+  
+      <h1> Dele un hogar a uno de estos perros</h1>
+      <p> Todos los animales que se encuentran en disposición son los siguientes. </p>
+  
+     <ul> 
+      <li><i>Nieve. </i>Husky Siberiano <br> <img src="imagenes/perro1.jpg">  </li>
+      <li> <i>Carbón.</i> <b>Cachorro</b> de RottWeiler<br> <img src="imagenes/perro2.jpg"> </li>
+     </ul>
+   </header>
+   <div id="article">
+ <article>
+     <h2>Horario en tienda</h2>
+     <table border="1">
+      
+        <tr>
+        <th> Apertura</th>
+        <th>lunes</th>
+        <th>martes</th>
+        <th>miecoles</th>
+        <th>jueves</th>
+        <th>viernes</th>
+      </tr>
+      <tr>
+        <th>&ThickSpace;</th>
+        <th>10:30</th>
+        <th>10:30</th>
+        <th>10:30</th>
+        <th>&ThickSpace;</th>
+        <th>&ThickSpace;</th>
+      </tr>
+      <tr>
+        <th>&ThickSpace;</th>
+        <th>15:30</th>
+        <th>10:30</th>
+        <th>15:30</th>
+        <th>15:30;</th>
+        <th>15:30</th>
+      </tr>
+
+   </table>
+      <h2>Proceso de adopción</h2>
+
+    <form method="post">
+    
+      <p> Para adoptar uno de estos perros, rellene el formulario o pase por la tienda en horario de apertura.</p>
+      <label for="name">Nombre: </label>
+      <input type="text" id="name" placeholder="Nombre" />&ThinSpace;
+      &ThinSpace;
+      <label for="Correo">Correo: </label>
+      <input
+        type="text"
+        id="Correo"
+        placeholder="Correo"
+      />&ThinSpace;&ThinSpace;
+      <label for="DNI">DNI:</label>
+      <input type="text"
+        id="DNI"
+        placeholder="DNI"
+     >
+        
+      <label for="Deseo">Deseo a: </label>
+      <select id="animales-lista" visible="2" multiple>
+      <option>Carbón</option>
+      <option>Nieve</option>
+
+      </select>
+      &ThinSpace;
+      <input type="submit" name="Adoptar!" value="Adoptar!" />
+    </form>
+  </article>
+</div>
+
+<div id="footer">
+  <footer>
+     <nav>
+        <h3>Terminos legales</h3>
+        <p>
+          <ul>
+            <li> <a href="Repaso/html">
+            <u> Politica de Cookies </u>
+            </a></li>
+            &ThickSpace;
+            <li><a href="Repaso/html">
+            <u> Politica de privacidad</u>
+            </a></li> 
+            &ThickSpace;
+            <li> <a href="Repaso/html">
+            <u>Terminos y condiciones</u>
+            </a></li>
+          </ul>
+      </p>
+    </nav>  
+  </footer>
+
+ </div>
+
+   
+  </body>
+</html>
